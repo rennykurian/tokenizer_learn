@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Node and frontend builds
+node_modules/
+coverage/
+frontend/dist/
+frontend/playwright-report/
+frontend/test-results/
+
+# Local configuration and temporary data
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
